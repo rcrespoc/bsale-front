@@ -1,42 +1,4 @@
-﻿/* ---------------------------------------- 
-MARGIN (|)
-PADDING (|)
-COLOR (*) (|) 
-  BLANCO NEGRO ROJO AZUL VERDE MORADO SKYBLUE
-BACKGROUND (*) (|)
-TEXT-SIZE (|)
-FONT WEIGHT (|)
-LINE HEIGHT (|)
-WIDTH (|) (*)
-HEIGHT (|) (*)
-MAX WIDTH (|)
-MAX HEIGHT (|)
-MENU HAMBURGUESA
-BOTON
-MQ
-Mobile First
-20 Default
-36 34... SM
-48 44... MD
-64 60... LG
-90 84... XL
----- NOTAS -----
-AGREGAR MAS COLORES Y FONDOS
-AGREGAR 5% 15% 25% 35% 45% 55% 65% 75%... EN COLORES (||), FONDOS (||), WIDTH (||) Y HEIGHT (||)
-BORDER RADIUS: 1ERA/2DA/3ERA/4TA ESQUINA O GENERAL
-BORDER: TOP BOTTOM LEFT RIGHT X Y COMPLETO SIN-BORDE (PENSAR COLORES) (MEDIDAS, DELGADO, MEDIO, GRANDE)
-BOX SHADOW
-FLEX: ROW COLUMN (ROW|COLUMN)-REVERSE
-
----------------------------------------- */
-/* 
-LEYENDA:
-(*) FALTA AGREGAR MÁS
-(|) PASO LA PRUEBA
-(||) TAREA LISTA Y PROBADA
-*/
-/* -------------------- RESET -------------------- */
-html{
+﻿html{
   box-sizing: border-box;
   font-size:16px;
   scroll-behavior: smooth;
