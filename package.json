@@ -1,0 +1,24 @@
+{
+  "name": "09-bsale-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcrespoc/bsale-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcrespoc/bsale-front/issues"
+  },
+  "homepage": "https://github.com/rcrespoc/bsale-front#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.6"
+  }
+}
