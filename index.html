@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='Bienvenidos a la tienda virtual BSale - Licores, bebidas, snacks, pisco, cervezas, etc...'>
+    <link rel="icon" type="image/png" href="https://rcrespoc.github.io/bsale-front/assets/images/negrita.png">
+    <link rel='shortcut icon' href='https://rcrespoc.github.io/bsale-front/assets/images/negrita.png' type='image/x-icon'>
+    <link rel='apple-touch-icon' href='https://rcrespoc.github.io/bsale-front/assets/images/negrita.png'>
+    <meta name='theme-color' content='#0000005e'>
+    <meta name='twitter:card' content='summary'>
+    <meta property='op:title' name='twitter:title' content='BSale Store'>
+    <meta property='op:image' name='twitter:image' content='https://rcrespoc.github.io/bsale-front/assets/images/girl-4181395_1920.jpg'>
+    <meta property='op:url' name='twitter:url' content='https://rcrespoc.github.io/bsale-front'>
+    <meta property='op:description' name='twitter:description' content='Bienvenidos a la tienda virtual BSale - Licores, bebidas, snacks, pisco, cervezas, etc...'>
+    <meta property='op:type' content='website'>
+    <link rel='canonical' href='https://rcrespoc.github.io/bsale-front'>
+    <link rel="stylesheet" href="css/amc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>BSale Store</title>
+  </head>
+  <body class='bg-black-20'>
+    <header class='nav-header px-2 py-1 bg-white-1 flex py-lg-0'>
+      <h3>
+        <a href="index.html" class="text-black-50">BSale Test</a>
+      </h3> <!-- LOGO -->
+      <button class='menu-btn'>
+        <img src="./assets/images/icon-hamburger.svg" alt="Hamburger Icon">
+        <img class='none' src="./assets/images/icon-close.svg" alt="Close Icon">
+      </button> <!-- MENU -->
+      <nav class="menu py-0-5 py-lg-0">
+        <form class='form-search flex' action="">
+          <label for="search"></label>
+          <input type="text" name="search" autocomplete="off" id="search" required placeholder="Buscar productos">
+          <input type="submit" value="Buscar" id="submitBtn">
+        </form> <!-- Form Search -->
+      </nav> <!-- Nav Search -->
+    </header> <!-- Header -->
+    <div class="hero-section flex">
+      <h3>BSale Test</h3>
+      <a id='hero-button' href="#main-section">Ver categorias</a>
+      <div class="hero-image">
+        <img src="./assets/images/girl-4181395_1920.jpg" alt="Hero Image">
+      </div>
+    </div> <!-- Hero Section -->
+    <main class="main-section text-center py-2">
+      <h3 id='main-section' clasS="mt-lg-1">Bienvenido/a a la Tienda Online</h3>
+      <h5 class='w-60 mx-auto mt-0-5'>Disfruta de nuestros productos.</h5>
+      <section class="categorias-productos mx-2">
+      </section> <!-- CATEGORIAS -->
+
+      <section class="productos mx-2 w-lg-80 mx-lg-auto">
+      </section> <!-- PRODUCTOS -->
+      <div class="paginacion">
+        
+      </div>
+    </main> <!-- MAIN SECTION -->
+    <div class="btnCarrito">
+      <i class="fas fa-shopping-cart"></i>
+    </div> <!-- BOTON CARRITO -->
+    <div class="btnHome">
+      <i class="fas fa-home"></i>
+    </div> <!-- BOTON CARRITO -->
+    <section class="carrito-compras">
+      <h5 class='text-center mt-2 fs-2'>Carrito de Compras</h5>
+      <section class="zona-productos-carrito-compras">
+        <table class='tabla-productos-compras'>
+          <tr class='item-producto-carrito-compras'>
+            <th></th>
+            <th>Nombre</th>
+            <th class='text-start ml-1-5'>Precio</th>
+            <th class='text-start'>Cantidad</th>
+            <th></th>
+          </tr>
+          
+        </table>
+      </section>
+      <section class="pago-carrito-compras flex">
+        <h6>Total: <span class='total-compra'>$0</span> </h6>
+        <button>
+          Continuar
+        </button>
+      </section>
+      <div class="cerrar-carrito-compras">
+        <button class="btnCerrar">
+          <i class="fas fa-times-circle"></i>
+        </button>
+      </div>
+    </section> <!-- CARRITO COMPRAS -->
+
+    <footer class='py-1 bg-black-1 text-center text-white-1'>
+      <p>Creado por <a rel="noopener" target="_blank" href="https://github.com/rcrespoc">Richard Crespo</a></p>
+    </footer>
+    <script src='./js/script.js' type='module'></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>
