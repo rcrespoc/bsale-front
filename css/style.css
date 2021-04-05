@@ -190,6 +190,9 @@ body{
   .hero-section{
     height: 15rem;
   }
+  .hero-section > h3{
+    font-size: 4rem;
+  }
 }
 
 /* -------------------- MAIN SECTION -------------------- */
