@@ -31,8 +31,8 @@ $btnSearch.addEventListener('click', (e) => {
     if(!error || error[0] === ' '){
       const busqueda = termino;
       $inputSearch.value = '';
-      if(busqueda.length < 4){
-        modalError('El término de búsqueda debe ser mayor a 4 letras y no debe contener carácteres especiales');
+      if(busqueda.length < 3){
+        modalError('El término de búsqueda debe ser mayor a 2 letras y no debe contener carácteres especiales');
         return;
       }
       productosPorNombre(busqueda);

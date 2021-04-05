@@ -148,53 +148,48 @@ body{
   position: relative;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: 1rem auto 0;
+  height: 6.1rem;
+  border-radius: 10px;
+  background-image: url('../assets/images/girl-4181395_1920.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-section > h3{
   position: absolute;
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 8px black;
   z-index: 999;
 }
-#hero-button{
-  display: none;
-}
-@media screen and (min-width: 80rem){
-  #hero-button{
-    display: block;
-    position: absolute;
-    z-index: 999;
-    bottom: 10rem;
-    border: 1px solid white;
-    background-color: black;
-    color: white;
-    padding: .5rem 1.5rem;
-  }
-}
-
-@media screen and (min-width: 48rem){
-  .hero-section > h3{
-    font-size: 5rem;
-  }
-}
 @media screen and (min-width: 64rem){
+  .hero-section{
+    height: 16rem;
+  }
   .hero-section > h3{
-    font-size: 7rem;
+    font-size: 4rem;
   }
 }
 @media screen and (min-width: 80rem){
   .hero-section{
-    height: 35rem;
+    height: 6rem;
   }
-  .hero-image > img{
-    height: 38rem;
-    width: 100%;
-    object-fit: cover;
+  .hero-section > h3{
+    font-size: 2rem;
   }
 }
-
-.hero-image > img{
-  filter: brightness(.4);
+@media screen and (min-width: 90rem){
+  .hero-section{
+    height: 19.5rem;
+  }
+}
+@media screen and (min-width: 120rem){
+  .hero-section{
+    height: 15rem;
+  }
 }
 
 /* -------------------- MAIN SECTION -------------------- */
@@ -212,19 +207,6 @@ body{
     padding: 1rem 0;
   }
 }
-@media screen and (min-width: 80rem){
-  .categorias-productos{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .item-categoria{
-    flex-basis: 30%;
-  }
-  .item-categoria:first-child > h5{
-    font-size: 2.5rem;
-    line-height: 2.5;
-  }
-}
 @media screen and (min-width: 64rem){
   .main-section > h3{
     font-size: 3rem;
@@ -233,7 +215,20 @@ body{
     font-size: 2rem;
   }
 }
+@media screen and (min-width: 80rem){
+  .categorias-productos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-section > h3{
+    font-size: 2.5rem;
+  }
+  .main-section > h5{
+    font-size: 1.5;
+  }
+}
 
+/* -------------------- CATEGORIAS -------------------- */
 .item-categoria:hover{
   transform: scale(1.1);
   cursor: pointer;
@@ -285,6 +280,35 @@ body{
   .item-categoria > h5{
     font-size: 3rem;
     line-height: 2;
+  }
+}
+@media screen and (min-width: 80rem){
+  .item-categoria{
+    height: 4rem;
+  }
+  .item-categoria > h5{
+    font-size: 2rem;
+    line-height: 2;
+  }
+  .item-categoria{
+    flex-basis: 30%;
+  }
+  .item-categoria:first-child > h5{
+    font-size: 2rem;
+    line-height: 2;
+  }
+}
+@media screen and (min-width: 120rem){
+  .item-categoria{
+    height: 7.25rem;
+  }
+  .item-categoria > h5{
+    font-size: 3rem;
+    line-height: 2.5;
+  }
+  .item-categoria:first-child > h5{
+    font-size: 2.5rem;
+    line-height: 3;
   }
 }
 
